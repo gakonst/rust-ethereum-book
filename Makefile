@@ -7,5 +7,8 @@ build: ## Build the book directory
 	@cargo install mdbook
 	@mdbook build
 
+test:
+	@mdbook test
+
 deploy: build ## Deploy the site using Netlify's CLI
 	@netlify deploy --prod

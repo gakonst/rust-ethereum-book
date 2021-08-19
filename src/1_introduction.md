@@ -12,8 +12,8 @@ We assume familiarity with Ethereum's mechanics such as:
 
 First create a new Rust project:
 
-```
-cargo new ethers-hello-world && cd ethers-hello-world
+```console
+$ cargo new ethers-hello-world && cd ethers-hello-world
 ```
 
 Edit your `Cargo.toml` and insert the following dependency:
